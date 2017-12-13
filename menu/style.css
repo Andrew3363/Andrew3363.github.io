@@ -1,0 +1,58 @@
+.buton {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.2% 0.2% 0.2% 0.2%;
+    -webkit-transition-duration: 0.75s; /* Safari */
+    transition-duration: 0.75s;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.button1 {
+    background-color: LightGray;
+    color: LightGray;
+    width: 99.8%;
+    height: 20%;
+}
+
+.button1:hover {
+    background-color: Gray;
+    color: LightGray;
+}
+
+.button3 {
+    background-color: Gray;
+    color: black;
+    width: 24.6%;
+    height: 13%;
+}
+
+.button3:hover {
+    background-color: LightGray;
+    color: White;
+}
+
+.frame {
+    border-style: none;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color:LightGray;
+    border-style: none;
+}
+.sumit {
+    background-color: Gray;
+    color: LightGray;
+    width: 24.8%;
+    height: 13%;
+    cursor: default;
+}
